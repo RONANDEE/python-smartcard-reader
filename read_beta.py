@@ -127,32 +127,5 @@ print ("Expire Date: " + thai2unicode(data[0]))
 # Address
 data = getData(CMD_ADDRESS, req)
 print ("Address: " + thai2unicode(data[0]))
-'''
-# PHOTO
-photo = getData(CMD_PHOTO1, req[0])
-photo += getData(CMD_PHOTO2, req[0])
-photo += getData(CMD_PHOTO3, req[0])
-photo += getData(CMD_PHOTO4, req[0])
-photo += getData(CMD_PHOTO5, req[0])
-photo += getData(CMD_PHOTO6, req[0])
-photo += getData(CMD_PHOTO7, req[0])
-photo += getData(CMD_PHOTO8, req[0])
-photo += getData(CMD_PHOTO9, req[0])
-photo += getData(CMD_PHOTO10, req[0])
-photo += getData(CMD_PHOTO11, req[0])
-photo += getData(CMD_PHOTO12, req[0])
-photo += getData(CMD_PHOTO13, req[0])
-photo += getData(CMD_PHOTO14, req[0])
-photo += getData(CMD_PHOTO15, req[0])
-photo += getData(CMD_PHOTO16, req[0])
-photo += getData(CMD_PHOTO17, req[0])
-photo += getData(CMD_PHOTO18, req[0])
-photo += getData(CMD_PHOTO19, req[0])
-photo += getData(CMD_PHOTO20, req[0])
-data = HexListToBinString(photo)
-f = open(cid + ".jpg", "wb")
-f.write (data)
-f.close
-'''
 # Exit program
 sys.exit()
